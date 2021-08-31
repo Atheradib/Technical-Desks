@@ -1,0 +1,15 @@
+*{
+    padding: 2px;
+}
+.button{
+    margin: 20px;
+}
+.tbSearch{
+    background-color: navy !important;
+}
+.tbData{
+    background-color:palegoldenrod !important;
+}
+.tbData div{
+    text-align: left;
+}

@@ -1,0 +1,20 @@
+.login{
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 80px;
+    background-color: blueviolet !important;
+    width: 500px;
+    align-items: center;
+    height: 300px;
+
+}
+.login input{
+    background-color: aqua;
+    margin-top: 10px;
+}
+.login button{
+    margin-top: 20px;
+    background-color: brown;
+    border-radius: 20px;
+}
