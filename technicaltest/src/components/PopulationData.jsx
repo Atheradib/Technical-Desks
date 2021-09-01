@@ -8,7 +8,7 @@ export const PopulationData = () => {
   const [teamData, setTeamData] = useState([]);
   const handleSearch = (e) => {
     const filterData = allData.filter((item) =>
-      item.title.includes(e.target.value)
+      item.title.toLowerCase().includes(e.target.value)
     );
     setTeamData([...filterData]);
   };
