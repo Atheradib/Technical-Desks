@@ -1,9 +1,9 @@
 import "./App.css";
-import { Home } from "./componnents/Home";
+import Light from "./componnents/Basic/Light";
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Light />
     </div>
   );
 }
